@@ -1,0 +1,79 @@
+.contProducto{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow:hidden;
+    .producto {
+        @extend %producto;
+        overflow:hidden;
+        &:hover {
+            box-shadow: 0px 0px 30px 9px #000000;
+            padding: 3px;
+        }
+        img {
+            width: 75%;
+            padding: 5px;
+            height: 55%;
+        }
+        .producto__titulo {
+            margin: 3px;
+            padding: 5px;
+            font-size: 18px;
+        }
+        .precio {
+            margin-top: 15px;
+            font-size: 22px;
+        }
+        .btnCont {
+            @include btnCont(#1c1b1b9f, rgb(176, 177, 179));
+        }
+    }
+    .TituloProdc {
+        color: $colorLogin ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 30px;
+        margin: 15px;
+        animation-name: Titulos;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 3s;
+    }
+}
+
+
+@keyframes Titulos {
+    0% {
+        transform:scale(1);
+    }
+    25% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+    60% {
+        transform: scale(1.2);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media (max-width:940px) { 
+    .producto {
+        width: 180px;
+        height: 300px;  
+    }
+    
+    .redesCaj {
+        flex-wrap: wrap;
+    }
+
+}

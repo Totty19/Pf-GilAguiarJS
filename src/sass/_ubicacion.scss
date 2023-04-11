@@ -1,0 +1,30 @@
+
+
+.titulos {
+    font-size: 2rem;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom, rgba(20, 23, 34, 0.442) , rgb(20, 23, 34));
+}
+
+
+.ubi {
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .direccion{
+        margin: 10px;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        h3{
+            font-family: monospace;
+            font-size: 19px;
+        }
+        img{
+            width: 80px;
+        }
+    }
+}

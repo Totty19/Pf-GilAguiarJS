@@ -1,0 +1,16 @@
+%producto {
+    overflow: hidden;
+    width: 240px;
+    height: 380px;
+    border-radius: 8px;
+    background-color: transparent;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    transition: all 0.6s;
+    color: $colorProd;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Css/Style.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="icon" type="image/jpg" href="../img/favicon.jpg"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Login y registro Isadora</title>
+        <link rel="stylesheet" href="../Css/bootstrap.min.css">
+    </head>
+    <body class="budy">
+        <nav class="navegador">
+            <img src="../img/logo.jpg" alt="Logo Isadora">
+
+            <i class="fa-solid fa-bars"></i>
+            <ul>
+                
+                <div>
+                    <input type="search" name="" class="buscador" placeholder="Buscar...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <li>
+                    <a href="../index.html">Inicio
+                        <i class="fa-solid fa-house" ></i>
+                    </a>
+                </li>
+                <li><a href="../Pages/ubicacion.html">Ubicacion
+                    <i class="fa-solid fa-location-dot"></i>
+                </a></li>
+
+                <li></i><a href="../Pages/login.html">Login
+                    <i class="fa-solid fa-user-group"></i>
+                </a></li>
+
+                <li></i><a href="../Pages/carrito.html">Mi Carrito <span class="item"></span>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </a></li>
+
+                <li>
+                    <a href="../Pages/productos.html">Productos
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <ul>
+                        <li><a href="../Pages/productos.html">Pantalones</a></li>
+                        <li><a href="../Pages/productos.html">Camperas</a></li>
+                        <li><a href="../Pages/productos.html">Remeras</a></li>
+                        <li><a href="../Pages/productos.html">Bermudas</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <header class="Hdear">
+            <div class="cajaTitulo" data-aos="fade-up"  data-aos-duration="3000">
+                <h1 class="titulo">Login Y Registro</h1>
+            </div>
+        </header>
+
+        <main class="mainLog mainn">
+
+            <div class="log">
+                <h2>Login</h2>
+                <form action="" method="get" class="cajaLog">
+                    <label class="lbl">
+                        <input class="inp" type="text" name="nombre " required placeholder="Escribe tu Nombre...">
+                    </label>
+                    
+                    <label class="lbl text-white">
+                        <input class="inp" type="password" name="" required placeholder="Escribe Tu Contrseña...">
+                    </label>
+                    <label class="cajBtn">
+                        <input type="submit" value="Ingresar" class="btnCont">
+                    </label>
+                </form>
+            
+            </div>
+
+            <div class="log ">
+                <h2 class="">Registrarse</h2>
+                <form action="" method="get" class="cajaLog">
+                    <label class="lbl">
+                        <input class="inp" type="text" name="nombre" required placeholder="Crear tu Usuario...">
+                    </label>
+                    
+                    <label class="lbl ">  
+                        <input class="inp" type="password" name="password" required placeholder="Escribe Tu Contraseña...">
+                    </label>
+                    <label class="lbl ">
+                        <input class="inp" type="password" name="password" required placeholder="Repite Tu Contraseña...">
+                    </label>
+
+                    <label class="lbl "> Acepto Los terminos y condiciones
+                        <input class="cheBx" type="checkbox" name="acepto" required class="checbox">
+                    </label>
+                    
+
+                    <label class="cajBtn">
+                        <input type="submit" value="Registrar" class="btnCont">
+                    </label>
+                </form>
+            </div>
+        </main>
+
+        <footer class="foter">
+            <div class="redesCaj">
+                <i class="fa-brands fa-facebook">
+                    <a href="https://www.facebook.com/tomigilaguiar/">Facebook</a>
+                </i>
+                <i class="fa-brands fa-instagram">
+                    <a href="https://www.instagram.com/tomigil8/">Instagram</a>
+                </i>
+                <i class="fa-brands fa-whatsapp">
+                    <a href="https://wa.me/543442475827?text=Hola%20isadora!!">Whatsapp</a>
+                </i>
+                <a href="#" class="btnComien">Ir al comienzo</a>
+            </div>
+            
+            <h2>Contactanos Aqui</h2>
+            <div class="contac">
+                <div class="boxCont">
+                    <form action="" method="get" class="cajaCont">
+                        <label class="lbl">
+                            <input type="email" name="Email" required placeholder="Escriba su email">
+                        </label>
+                        
+                        <label class="lbl">
+                            <input type="text" name="Asunto" required placeholder="Escriba el asunto del correo">
+                        </label>
+                        
+                        <textarea class="textsinbs" name="" id="" cols="30" rows="10" placeholder="Escriba un mensaje para Isadora Aqui"></textarea>
+                        <input type="reset" value="Limpiar" class="btnCont">
+                        <input type="submit" value="Enviar" class="btnCont">
+                        
+                    </form>
+                </div>
+            </div>
+            <p>&copy;2022 <b>Isadora</b> - Todos los derechos Reservados</p>
+        </footer>
+
+        <script src="../Js/productos.js"></script>
+        <script src="../Js/scritp.js"></script>
+        <script src="../Js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        
+    </body>
+</html>

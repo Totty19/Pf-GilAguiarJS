@@ -1,0 +1,47 @@
+.carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.not {
+    display: none;
+}
+
+.Prodc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.conTitulos {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border-bottom: solid white 1px ;
+    justify-content: space-between;
+    margin: 25px;
+    .btnCarr{
+        border: none;
+        background: transparent;
+        font-size: 30px;
+        color: rgb(4, 101, 53);
+        transition: 0.6s;
+        &:hover{
+            color: rgba(0, 177, 86, 0.836);
+            transform: scale(1.1);
+            transition: 0.6s;
+        }
+    }
+}
+
+.titCarr{
+    font-size: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.301);
+    margin: 15px;
+}
+

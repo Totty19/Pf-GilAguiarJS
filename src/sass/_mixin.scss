@@ -1,0 +1,16 @@
+
+@mixin btnCont ($background, $color){
+    transition: all 0.6s;
+    width: 120px;
+    background: $background;
+    border: none;
+    color: $color;
+    padding: 7px;
+    border-radius: 15px;
+    list-style-type: none;
+    text-decoration: none;
+    &:hover {
+        background: #1514146f;
+        border-radius: 15px;
+    }
+}

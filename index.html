@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./Css/Style.css">
+        <meta name="description" content="¡Tenemos los pantalones cargos, remeras y camperas corta vientos al mejor precio!">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Isadora | Los mejor calidad de ropa </title>
+        <link rel="stylesheet" href="./Css/bootstrap.min.css">
+    </head>
+    <body class="budy">
+        <nav class="navegador">
+            <img src="./img/logo.jpg" alt="Logo Isadora">
+
+            <i class="fa-solid fa-bars"></i>
+            <ul>
+                
+                <div>
+                    <input type="search" name="" class="buscador" placeholder="Buscar...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <li>
+                    <a  href="./index.html">Inicio
+                        <i class="fa-solid fa-house" ></i>
+                    </a>
+                </li>
+                <li>
+                    <a  href="./Pages/ubicacion.html">Ubicacion
+                        <i class="fa-solid fa-location-dot"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a  href="./Pages/login.html">Login
+                        <i class="fa-solid fa-user-group"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a  href="./Pages/carrito.html">Mi Carrito <span class="item"></span>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a  href="./Pages/productos.html">Productos
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <ul>
+                        <li><a href="./Pages/productos.html">Pantalones</a></li>
+                        <li><a href="./Pages/productos.html">Camperas</a></li>
+                        <li><a href="./Pages/productos.html">Remeras</a></li>
+                        <li><a href="./Pages/productos.html">Bermudas</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <header class="Hdear">
+            <div class="cajaTitulo" data-aos="fade-up"  data-aos-duration="3000">
+                <h1 class="titulo">
+                    <img src="./img/logo.jpg" alt="">
+                </h1>
+            </div>
+
+            <div class="cajPrd">
+                <h3>Algunos de nuestros productos</h3>
+            </div>
+
+            <div id="carouselExampleInterval" class="carousel slide carrou" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./img/imgprod/bermudaCarg.png" class="d-block w-100" alt="bermuda Cargo negra con diseños">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./img/imgprod/bermudaCargGris.png" class="d-block w-100" alt="bermuda Cargo gris">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./img/imgprod/bermudaCargo.jpg" class="d-block w-100" alt="bermuda Cargo azul">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade carrou">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="./img/imgprod/remeraBlanc.png" class="d-block w-100" alt="Remera blanca">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./img/imgprod/remeraBlanMen.png" class="d-block w-100" alt="Remera blanca men">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./img/imgprod/remeraGris.png" class="d-block w-100" alt="Remera gris">
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+        </header>
+
+        <main class="mainn">
+
+
+            <div class="cajReg" data-aos="fade-up"  data-aos-duration="3000">
+                <h2 class="titReg" data-aos="fade-right" data-aos-duration="3000" >Registrandote por primera vez tenes un descuento de un 15% en el producto que elijas</h2>
+                <a href="./Pages/login.html">Ir a Registrarse
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>        
+            </div>
+        </main> 
+
+        <footer class="foter">
+            <div class="redesCaj">
+                <i class="fa-brands fa-facebook">
+                    <a href="https://www.facebook.com/tomigilaguiar/">Facebook</a>
+                </i>
+                <i class="fa-brands fa-instagram">
+                    <a href="https://www.instagram.com/tomigil8/">Instagram</a>
+                </i>
+                <i class="fa-brands fa-whatsapp">
+                    <a href="https://wa.me/543442475827?text=Hola%20isadora!!">Whatsapp</a>
+                </i>
+                <a href="#" class="btnComien">Ir al comienzo</a>
+            </div>
+            
+            <h2>Contactanos Aqui</h2>
+            <div class="contac">
+                <div>
+                    <form action="https://formsubmit.co/tomiexe16@gmail.com" method="POST" class="cajaCont">
+                        <label class="lbl">
+                            <input type="email" name="mail" required placeholder="Escriba su email">
+                        </label>
+                        
+                        <label class="lbl">
+                            <input type="text" name="Asunto" required placeholder="Escriba el asunto del correo">
+                        </label>
+                        
+                        <textarea class="textsinbs" name="" id="" cols="30" rows="10" placeholder="Escriba un mensaje para Isadora Aqui"></textarea>
+                        <input type="reset" value="Limpiar" class="btnCont">
+                        <input type="submit" value="Enviar" class="btnCont">
+                        
+                    </form>
+                </div>
+            </div>
+            
+            <p>&copy;2022 <b>Isadora</b> - Todos los derechos Reservados</p>
+        </footer>
+
+        <script src="./Js/productos.js"></script>
+        <script src="./Js/scritp.js"></script>
+        <script src="./Js/script2.js"></script>
+        <script src="./Js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
