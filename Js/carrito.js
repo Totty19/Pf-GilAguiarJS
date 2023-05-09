@@ -39,7 +39,12 @@ function vaciarCarrito() {
 function eliminarProducto(id) {
     for (let i = 0; i < carrito.length; i++) {
         if (carrito[i].id == id) {
-            carrito.splice(i,1);
+            if (carrito[i].cantidad > 1) {
+                carrito[i].cantidad--
+            }
+            else {
+                carrito.splice(i,1);
+            }
             break;
         } 
     }
